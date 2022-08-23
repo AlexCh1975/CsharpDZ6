@@ -8,16 +8,16 @@
 Console.Clear();
 
 Console.Write("Введите число b1: ");
-int b1 = Convert.ToInt32(Console.ReadLine());
+double b1 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите число b2: ");
-int b2 = Convert.ToInt32(Console.ReadLine());
+double b2 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите число k1: ");
-int k1 = Convert.ToInt32(Console.ReadLine());
+double k1 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите число k2: ");
-int k2 = Convert.ToInt32(Console.ReadLine());
+double k2 = Convert.ToInt32(Console.ReadLine());
 
 double x = GetPointIntersectionLines(b1, b2, k1, k2, out double y);
 PrintResult(x, y);
